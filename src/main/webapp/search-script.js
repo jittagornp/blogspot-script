@@ -55,10 +55,11 @@ contentWidth:s,animateScroll:!1,animateDuration:300,animateEase:"linear",hijackI
       submenu = submenu + "<a href='http://na5cent.blogspot.com/p/evolution.html'><span class='before-submenu'></span>EVOLUTION</a>"; 
 
       submenu = submenu + "<a href='http://na5cent.blogspot.com/p/maven-dependencies.html'><span class='before-submenu'></span>MAVEN DEPENDENCIES</a>"; 
+      submenu = submenu + "<a href='http://na5cent.blogspot.com/p/like-music.html'><span class='before-submenu'></span>LIKE VIDEO</a>"; 
 
 
 
-       $("#PageList1 .widget-content ul li:eq(8)").append('<div class="sub-header-menu"><div class="tail-submenu"></div><div class="inner">' + submenu + '</div></div>');
+       $("#PageList1 .widget-content ul li:eq(7)").append('<div class="sub-header-menu"><div class="tail-submenu"></div><div class="inner">' + submenu + '</div></div>');
 
        $(".post-labels").each(function(){
            var html = $(this).html().replace(/,/gi, "  ");
