@@ -47,7 +47,7 @@ contentWidth:s,animateScroll:!1,animateDuration:300,animateEase:"linear",hijackI
        $("div.jump-link").append("<div class='my-tail'></div>");
 
 
-       $("<li  id='liHeaderOther' style='height : 54px; width : 170px;'><a href='#other' onclick='return false;' style='height : 22px; width : 122px; text-align : right;'>OTHER</a></li>").insertAfter("#PageList1 .widget-content ul li:eq(6)");
+       $("<li  id='liHeaderOther' style='height : 54px; width : 150px;'><a href='#other' onclick='return false;' style='height : 22px; width : 100px; text-align : right;'>OTHER</a></li>").insertAfter("#PageList1 .widget-content ul li:eq(6)");
 
 
       var submenu = "<a href='http://na5cent.blogspot.com/p/english-learning.html'><span class='before-submenu'></span>ENGLISH LEARNING</a>";
